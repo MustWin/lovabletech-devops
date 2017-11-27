@@ -1,1 +1,0 @@
-Lovable Tech Devops Page
