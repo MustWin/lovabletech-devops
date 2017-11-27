@@ -1587,6 +1587,12 @@ body.landing {
 section.special, article.special {
   text-align: center; }
 
+.desktop {
+  display: block; }
+
+.mobile {
+  display: none; }
+
 header p {
   color: #ffffff;
   position: relative;
@@ -2619,7 +2625,6 @@ body.is-touch #banner {
       max-height: 40vh;
       overflow: hidden; }
     .spotlight .content {
-      background-color: #1c1d26;
       border-width: 0 !important;
       border-top-width: 0.35em !important;
       bottom: auto !important;
@@ -2870,7 +2875,13 @@ body.is-touch #banner {
 
   /* Footer */
   #footer {
-    padding: 3.25em 1.5em; } }
+    padding: 3.25em 1.5em; }
+
+  .desktop {
+    display: none; }
+
+  .mobile {
+    display: block; } }
 /* XSmall */
 @media screen and (max-width: 480px) {
   /* Basic */

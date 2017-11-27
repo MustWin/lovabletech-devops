@@ -307,6 +307,9 @@
 		}
 	}
 
+  .desktop { display: block;}
+  .mobile { display: none; }
+
 	header {
 		p {
 			color: _palette(fg-bold);
@@ -1611,7 +1614,6 @@
 				}
 
 				.content {
-					background-color: _palette(bg);
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
@@ -1921,6 +1923,14 @@
 			#footer {
 				padding: $size-wrapper-pad-tb $size-wrapper-pad-lr;
 			}
+
+      .desktop {
+        display: none;
+      }
+
+      .mobile {
+        display: block;
+      }
 
 	}
 
