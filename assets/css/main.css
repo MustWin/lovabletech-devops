@@ -2377,6 +2377,12 @@ body.is-touch .spotlight {
   .wrapper.fade.inactive > .container {
     opacity: 0; }
 
+.wrapper-case-study {
+  background: white;
+  color: black; }
+  .wrapper-case-study h1, .wrapper-case-study h2, .wrapper-case-study h3, .wrapper-case-study h4, .wrapper-case-study h5, .wrapper-case-study h6, .wrapper-case-study p, .wrapper-case-study header {
+    color: black; }
+
 /* Dropotron */
 .dropotron {
   background: rgba(39, 40, 51, 0.965);
