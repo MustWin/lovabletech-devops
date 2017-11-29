@@ -1896,6 +1896,8 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.fit img {
       width: 100%; }
+    .image.fit.image400 {
+      max-height: 400px; }
 
 /* List */
 ol {
@@ -2539,6 +2541,9 @@ body.landing #page-wrapper {
         border-radius: 100%;
         display: block;
         width: 100%; }
+    #banner .content .image400 {
+      max-height: 400px;
+      overflow: hidden; }
 
 body.is-touch #banner {
   background-attachment: scroll; }
