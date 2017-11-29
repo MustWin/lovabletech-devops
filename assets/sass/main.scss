@@ -651,6 +651,10 @@
 			img {
 				width: 100%;
 			}
+
+      &.image400 {
+        max-height: 400px;
+      }
 		}
 	}
 
@@ -1466,6 +1470,11 @@
 					width: 100%;
 				}
 			}
+
+      .image400 {
+        max-height: 400px;
+        overflow: hidden;
+      }
 		}
 	}
 
