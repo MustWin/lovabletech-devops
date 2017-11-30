@@ -1101,6 +1101,18 @@
 			}
 		}
 
+    &.style4 {
+			.content {
+				border-color: _palette(accent5);
+			}
+		}
+
+    &.style5 {
+			.content {
+				border-color: _palette(accent6);
+			}
+		}
+
 		&.inactive {
 			.content {
 				opacity: 0;
