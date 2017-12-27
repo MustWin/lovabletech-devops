@@ -2259,6 +2259,10 @@ input[type="button"],
     border-color: #5480f1; }
   .spotlight.style3 .content {
     border-color: #39c088; }
+  .spotlight.style4 .content {
+    border-color: #9b59b6; }
+  .spotlight.style5 .content {
+    border-color: #e67e22; }
   .spotlight.inactive .content {
     opacity: 0; }
   .spotlight.inactive .goto-next {
