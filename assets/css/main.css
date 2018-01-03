@@ -1898,6 +1898,8 @@ input[type="radio"] + label:before {
       width: 100%; }
     .image.fit.image400 {
       max-height: 400px; }
+    .image.fit.image600 {
+      max-height: 600px; }
 
 /* List */
 ol {
