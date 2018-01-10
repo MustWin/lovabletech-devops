@@ -1,13 +1,21 @@
 function getRandom(){
-  return Math.floor(Math.random() * 10);
+  return Math.floor(Math.random() * 6);
+}
+
+function returnLinearGradient(){
+  var colors = ['#78ffd6','#000046','#1CB5E0','#56CCF2','#2F80ED','#0575E6'];
+  var str = "linear-gradient(to right, " + colors[getRandom()] + ", " + colors[getRandom()] + ")"
+  var alt = colors[getRandom()];
+  return alt;
 }
 
 function main(){
-  var colors = ['#78ffd6','#000046','#1CB5E0','#56CCF2','#2F80ED','#0575E6'];
-
   setInterval(function(){
-    console.log(colors[getRandom()]);
-  }, 1000);
+    $('#banner').css('background', returnLinearGradient());
+  }, 3000);
 }
 
-main();
+$(document).ready(function(){
+  console.log('ready');
+  main();
+})

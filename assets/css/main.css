@@ -2494,7 +2494,8 @@ body.landing #page-wrapper {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  z-index: 21; }
+  z-index: 21;
+  transition: all 0.3s ease; }
   #banner.base {
     background: linear-gradient(to right, #000046, #1cb5e0); }
   #banner.alternate {
