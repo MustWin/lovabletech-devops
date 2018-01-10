@@ -12,7 +12,7 @@ function returnLinearGradient(){
 function main(){
   setInterval(function(){
     $('#banner').css('background', returnLinearGradient());
-  }, 3000);
+  }, 2000);
 }
 
 $(document).ready(function(){
