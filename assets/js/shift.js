@@ -1,9 +1,10 @@
+var colors = ['#78ffd6','#3a7bd5','#1CB5E0','#56CCF2','#2F80ED','#0575E6', '#3399ff'];
+
 function getRandom(){
-  return Math.floor(Math.random() * 6);
+  return Math.floor(Math.random() * colors.length);
 }
 
 function returnLinearGradient(){
-  var colors = ['#78ffd6','#000046','#1CB5E0','#56CCF2','#2F80ED','#0575E6'];
   var str = "linear-gradient(to right, " + colors[getRandom()] + ", " + colors[getRandom()] + ")"
   var alt = colors[getRandom()];
   return alt;
