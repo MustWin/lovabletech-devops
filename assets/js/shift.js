@@ -1,18 +1,16 @@
-var colors = ['#78ffd6','#3a7bd5','#1CB5E0','#56CCF2','#2F80ED','#0575E6', '#3399ff'];
+var colors = ['rgba(51,153,255,0.5)','rgba(58,123,213,0.5)','rgba(28,181,224,0.5)','rgba(86,204,242,0.5)','rgba(47,128,237,0.5)','rgba(47,128,237,0.5)'];
 
 function getRandom(){
   return Math.floor(Math.random() * colors.length);
 }
 
 function returnLinearGradient(){
-  var str = "linear-gradient(to right, " + colors[getRandom()] + ", " + colors[getRandom()] + ")"
-  var alt = colors[getRandom()];
-  return alt;
+  return colors[getRandom()];
 }
 
 function main(){
   setInterval(function(){
-    $('#banner').css('background', returnLinearGradient());
+    $('.background-tint').css('background-color', returnLinearGradient());
   }, 2000);
 }
 
