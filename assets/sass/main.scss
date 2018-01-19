@@ -1500,6 +1500,12 @@
 		}
 	}
 
+  #one {
+    h1,h2,h3,h4,h6,h6,p,blockquote, strong {
+      color: _palette(black);
+    }
+  }
+
   .background-tint {
     background-color: rgba(51,153,255,0.5);
     background-blend-mode: multiply;

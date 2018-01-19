@@ -2554,6 +2554,9 @@ body.landing #page-wrapper {
       max-height: 400px;
       overflow: hidden; }
 
+#one h1, #one h2, #one h3, #one h4, #one h6, #one h6, #one p, #one blockquote {
+  color: rgba(23, 24, 32, 0.95); }
+
 .background-tint {
   background-color: rgba(51, 153, 255, 0.5);
   background-blend-mode: multiply; }
