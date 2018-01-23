@@ -2130,7 +2130,7 @@ input[type="button"],
   text-indent: 10em;
   white-space: nowrap;
   width: 10em;
-  z-index: 1; }
+  z-index: 100; }
   .goto-next:before {
     background-image: url("images/arrow.svg");
     background-position: center center;
@@ -2554,7 +2554,7 @@ body.landing #page-wrapper {
       max-height: 400px;
       overflow: hidden; }
 
-#one h1, #one h2, #one h3, #one h4, #one h6, #one h6, #one p, #one blockquote, #one strong {
+#portfolio h1, #portfolio h2, #portfolio h3, #portfolio h4, #portfolio h6, #portfolio h6, #portfolio p, #portfolio blockquote, #portfolio strong {
   color: rgba(23, 24, 32, 0.95); }
 
 .background-tint {
