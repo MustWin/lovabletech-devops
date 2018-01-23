@@ -2491,7 +2491,7 @@ body.landing #page-wrapper {
 /* Banner */
 #banner {
   background-attachment: fixed;
-  background-image: url("../../images/hero.jpg");
+  background-image: url("../../images/hero-2.jpeg");
   background-size: cover;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
   min-height: 100vh;
@@ -2553,9 +2553,25 @@ body.landing #page-wrapper {
     #banner .content .image400 {
       max-height: 400px;
       overflow: hidden; }
+  #banner .banner-hero {
+    padding-right: 20px;
+    border-right: 2px solid white; }
+  #banner .banner-slick {
+    padding-left: 0px; }
+    #banner .banner-slick #slick-carousel {
+      width: 200px;
+      text-align: center; }
 
-#portfolio h1, #portfolio h2, #portfolio h3, #portfolio h4, #portfolio h6, #portfolio h6, #portfolio p, #portfolio blockquote, #portfolio strong {
+#portfolio h2, #portfolio h3, #portfolio h4, #portfolio h6, #portfolio h6, #portfolio p, #portfolio blockquote, #portfolio strong {
   color: rgba(23, 24, 32, 0.95); }
+#portfolio blockquote {
+  border-left: solid 4px rgba(23, 24, 32, 0.95); }
+#portfolio h1 {
+  text-align: center;
+  color: #BE1A67;
+  font-size: 30px; }
+#portfolio strong {
+  font-weight: bold; }
 
 .background-tint {
   background-color: rgba(51, 153, 255, 0.5);
