@@ -596,9 +596,12 @@
 		}
 	}
 
-  .partners {
+  #partners {
     .icon {
-      margin-left: 25%;
+      margin: auto;
+      img {
+        height: 100px;
+      }
     }
   }
 
