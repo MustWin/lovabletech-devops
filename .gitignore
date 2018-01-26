@@ -3,5 +3,5 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
+.s3_sync
 .sass-cache/
