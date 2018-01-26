@@ -1,0 +1,9 @@
+# Rule 1
+User-agent: Googlebot
+Allow: *
+
+# Rule 2
+User-agent: *
+Allow: /
+
+Sitemap: http://devops.lovable.tech/sitemap.xml
